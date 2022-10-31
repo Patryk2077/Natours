@@ -42,11 +42,13 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .heading-primary {
     color: white;
     text-transform: uppercase;
+    margin-bottom: 60px;
 }
 .heading-primary-main {
     display: block;
@@ -90,4 +92,15 @@ body {
         opacity: 1;
         transform:translate(0)
     }
+}
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+}
+.btn-white {
+    background-color: white;
+    color: #777;
 }
